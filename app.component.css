@@ -52,10 +52,10 @@ body {
   }
 
   .imagenDropDown {
+  margin-left: 10px;
+  margin-top: 10px;
   width: 100%; /* La imagen ocupa el 100% del ancho del contenedor */
   height: 100%; /* La imagen ocupa el 100% del alto del contenedor */
-  
-
   }
   
   .dropdown-content {
@@ -124,4 +124,84 @@ body {
     height: auto;
 
   }
+
+  /* NUEVO */
+  .friends-page {
+    padding-left: 20px;
+  }
+  .friends-list {
+      max-height: 250px; 
+      overflow-y: auto;  /* Enable vertical scrolling */
+      border: 1px solid #ccc;
+      padding: 10px;
+      border-radius: 5px;
+    }
+  
+    .friend {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+  
+    .friend img {
+      width: 50px; 
+      height: 50px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+
+    /* Styles for the search bar */
+  .search-container {
+    margin-bottom: 10px;
+  }
+  
+  .search-container input[type=text] {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  .move-right {
+    margin-left: 100px;
+  }
+  .delete-button {
+    margin-left: 50px; 
+    background-color: #ff4d4d; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px;
+  }
+
+  /* Hover effect */
+  .delete-button:hover {
+    background-color: #ff6666; /* Darker red background color on hover */
+  }
+
+  .add-friend-button {
+    margin-left: 50px; 
+    background-color: #4CAF50;
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px;
+  }
+
+  /* Hover effect */
+  .add-friend-button:hover {
+    background-color: #45a049; /* Darker green background color on hover */
+  }
+
   
